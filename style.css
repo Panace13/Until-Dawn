@@ -257,35 +257,29 @@ img {
 
   .sobre span {
     font-size: 0.8em;
-    top: 4.2%;
-    left: 1.2%;
+    width: 200px;
+    top: 2.5%;
+    left: 25%;
+    text-align: center;
   }
 
   .sobre-info {
-    flex: 1 1 600px;
-    margin: 0px 10px 20px 0px;
+    flex: 1 1 240px;
+    margin: 0px auto 20px auto;
   }
 
-  .sobre h1 {
-    font-size: 3em;
-    padding: 10px 0px;
-    
-  }
-  
-  .sobre span {
-    left: -1%;
-  }
 
   .sobre h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     padding: 20px 0px 0px 0px;
-    margin: 0px 10px 20px 0px;
+    margin: 0px auto 20px auto;
+    text-align: center;
   }
 
   .sobre p {
-    margin-bottom: 20px;
-    max-width: 310px;
+    margin: 0px auto 20px auto;
     font-size: 1em;
+    text-align: center;
   }
 }
 
@@ -322,7 +316,7 @@ img {
   flex-basis: 700px;
   flex-wrap: nowrap;
   font-size: 1.6em;
-  margin: 40px auto 20px auto;
+  margin: 20px auto 20px auto;
   text-align: center;
 }
 

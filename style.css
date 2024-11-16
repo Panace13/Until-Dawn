@@ -85,11 +85,11 @@ img {
 /*sobre*/
 
 .sobre-bg {
-  background-image: url(./img/ampulheta\ 1400.jpg);
+  background-image: url(img/fundo/ampulheta\ 1400.jpg);
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
-  padding:20px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .sobre {
@@ -130,12 +130,12 @@ img {
 
 @media (max-width: 1400px) {
   .sobre-bg {
-    background-image: url(./img/ampulheta\ 1040.jpg);
+    background-image: url(img/fundo/ampulheta\ 1040.jpg);
     margin: 0px;
     padding: 0px;
   }
 
-  .sobre{
+  .sobre {
     padding-top: 28px;
   }
 
@@ -153,12 +153,12 @@ img {
 
 @media (max-width: 1100px) {
   .sobre-bg {
-    background-image: url(./img/ampulheta\ 700.jpg);
+    background-image: url(img/fundo/ampulheta\ 700.jpg);
     margin: 0px;
     padding: 0px;
   }
 
-  .sobre{
+  .sobre {
     padding-top: 22px;
   }
 
@@ -185,12 +185,12 @@ img {
 }
 
 @media (max-width: 800px) {
-  .menu{
+  .menu {
     padding: 6px 0px;
   }
 
   .menu-lista ul a {
-    font-size: 1.10em;
+    font-size: 1.1em;
     padding: 12px;
   }
 
@@ -199,7 +199,7 @@ img {
     margin-left: 20px;
   }
 
-  .sobre{
+  .sobre {
     padding-top: 18px;
     margin-left: 10px;
   }
@@ -227,13 +227,13 @@ img {
 }
 
 @media (max-width: 500px) {
-  .menu{
+  .menu {
     flex-direction: column;
     padding: 6px 0px;
   }
 
   .menu-lista ul a {
-    font-size: 1.10em;
+    font-size: 1.1em;
     padding: 12px;
   }
 
@@ -243,14 +243,14 @@ img {
   }
 
   .sobre-bg {
-    background-image: url(./img/ampulheta\ 400-2.jpg);
+    background-image: url(img/fundo/ampulheta\ 400-2.jpg);
     background-size: cover;
     margin: 0px;
     padding-top: 5px;
     height: 800px;
   }
 
-  .sobre{
+  .sobre {
     padding-top: 18px;
     margin-left: 10px;
   }
@@ -274,6 +274,166 @@ img {
   .sobre p {
     margin-bottom: 20px;
     max-width: 310px;
-    font-size: 1em
+    font-size: 1em;
   }
 }
+
+/*tema
+.tema-1{
+  background-image: url(./img/fundo/medo\ 1030.jpg);
+  background-repeat: no-repeat;
+  height: 640px;
+}
+
+.tema-1 span{
+  position: absolute;
+  top: 154%;
+  left: 38%;
+  font-size: 12em;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
+  text-align: center;
+  color: #dedfe17a;
+}
+*/
+
+/*jogo*/
+
+.jogo-bg {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #121314;
+  color: #ffffff;
+  height: 1360px;
+}
+
+.jogo-bg h1 {
+  flex-basis: 700px;
+  flex-wrap: nowrap;
+  font-size: 1.6em;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+.jogo {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jogo-info {
+  flex: 1 0 470px;
+  margin: 20px 10px;
+}
+
+.jogo-info img {
+  height: 300px;
+}
+
+.jogo-info:nth-child(4) {
+  flex: 1 1 400px;
+  margin-top: 10px;
+}
+
+.jogo-info:nth-child(4) img {
+  height: auto;
+}
+
+.jogo-info h2 {
+  font-size: 1.6em;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.jogo-info p {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 300;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .jogo-info {
+    flex: 1 0 380px;
+  }
+}
+
+@media (max-width: 800px) {
+  .jogo-bg {
+    height: auto;
+  }
+
+  .jogo-info {
+    flex: 1 0 480px;
+  }
+  .jogo-info img {
+    height: auto;
+  }
+
+  .jogo-info h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jogo-info p {
+    font-size: 1.3em;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .jogo-bg{
+    margin-top: -2px;
+  }
+  .jogo-info {
+    flex: 1 0 240px;
+  }
+
+  .jogo-info h2 {
+    font-size: 1.4em;
+    margin-top: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jogo-info p {
+    font-size: 1.1em;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+/*tema 2
+
+.tema-2{
+  background-image: url(./img/fundo/sobrevivencia\ 1030.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tema-2 span{
+  position: absolute;
+  top: 440%;
+  left: 8%;
+  font-size: 14em;
+  text-transform: uppercase;
+  font-family: "Creepster", system-ui;
+  text-align: center;
+  color: #dedfe17a;
+}
+  */

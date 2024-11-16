@@ -259,7 +259,7 @@ img {
     font-size: 0.8em;
     width: 200px;
     top: 2.5%;
-    left: 25%;
+    left: 28%;
     text-align: center;
   }
 
@@ -267,7 +267,6 @@ img {
     flex: 1 1 240px;
     margin: 0px auto 20px auto;
   }
-
 
   .sobre h1 {
     font-size: 1.6em;
@@ -398,7 +397,7 @@ img {
 }
 
 @media (max-width: 500px) {
-  .jogo-bg{
+  .jogo-bg {
     margin-top: -2px;
   }
   .jogo-info {

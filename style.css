@@ -5,7 +5,8 @@ p,
 ul,
 li,
 a,
-section {
+section,
+span {
   margin: 0px;
   padding: 0px;
 }
@@ -20,6 +21,7 @@ ul {
 
 a {
   text-decoration: none;
+  margin-left: 0px;
 }
 
 img {
@@ -50,7 +52,6 @@ img {
   font-family: "Creepster", system-ui;
   font-weight: 400;
   color: #ffffff;
-  margin-left: 10px;
 }
 
 .menu-lista ul {
@@ -69,10 +70,28 @@ img {
   color: #0070d1;
 }
 
+@media (max-width: 1140px) {
+  .menu {
+    padding: 6px 0px;
+    margin-left: 40px;
+  }
+
+  .menu-lista ul a {
+    font-size: 1.1em;
+    padding: 12px;
+  }
+
+  .menu-logo a {
+    font-size: 2.2em;
+  }
+}
+
 @media (max-width: 500px) {
   .menu {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 0px;
   }
 
   .menu-lista ul {
@@ -97,34 +116,31 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0px auto;
-  padding: 40px 0px 10px 0px;
-  position: relative;
+  padding: 20px 0px 10px 0px;
 }
 
-.sobre-info {
+.sobre-item .sobre-info {
   flex: 0 0 400px;
-  margin: 0px 10px 20px 10px;
+  margin: 0px 0px 20px 0px;
 }
 
-.sobre h1 {
+.sobre-item h1 {
   font-size: 3em;
-  padding: 10px 0px;
-  margin: 0px 10px 30px 10px;
+  margin: 0px 0px 26px 0px;
 }
 
-.sobre span {
-  position: absolute;
-  top: 4%;
-  left: 1%;
+.sobre-item span {
+  display: block;
+  margin-left: -0.9%;
   font-size: 1em;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   color: #dedfe1;
 }
 
-.sobre p {
+.sobre-item p {
   margin-bottom: 30px;
-  max-width: 400px;
+  width: 420px;
   font-size: 1.2em;
 }
 
@@ -141,17 +157,17 @@ img {
 
   .sobre-info {
     flex: 1 1 500px;
-    margin: 0px 10px 20px 10px;
+    margin: 0px 0px 20px 0px;
   }
 
-  .sobre h1 {
+  .sobre-item h1 {
     font-size: 2.5em;
-    padding: 20px 0px 0px 0px;
+    padding: 0px;
     margin-bottom: 20px;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1140px) {
   .sobre-bg {
     background-image: url(img/fundo/ampulheta\ 700.jpg);
     margin: 0px;
@@ -160,88 +176,55 @@ img {
 
   .sobre {
     padding-top: 22px;
+    margin-left: 40px;
   }
 
-  .sobre span {
+  .sobre-item span {
     font-size: 0.9em;
-    top: 4.5%;
-    left: 1%;
   }
 
   .sobre-info {
     flex: 1 1 600px;
   }
 
-  .sobre h1 {
+  .sobre-item h1 {
     font-size: 1.8em;
-    padding: 20px 0px 0px 0px;
+    padding: 0px;
     margin-bottom: 20px;
   }
 
-  .sobre p {
+  .sobre-item p {
     margin-bottom: 20px;
     font-size: 1.1em;
   }
 }
 
 @media (max-width: 800px) {
-  .menu {
-    padding: 6px 0px;
-  }
-
-  .menu-lista ul a {
-    font-size: 1.1em;
-    padding: 12px;
-  }
-
-  .menu-logo a {
-    font-size: 2.2em;
-    margin-left: 20px;
-  }
-
   .sobre {
     padding-top: 18px;
-    margin-left: 10px;
   }
 
-  .sobre span {
+  .sobre-item span {
     font-size: 0.9em;
-    top: 4.2%;
-    left: 1%;
   }
 
-  .sobre-info {
+  .sobre-item .sobre-info {
     flex: 1 1 600px;
   }
 
-  .sobre h1 {
+  .sobre-item h1 {
     font-size: 1.7em;
-    padding: 20px 0px 0px 0px;
+    padding: 0px;
     margin-bottom: 20px;
   }
 
-  .sobre p {
+  .sobre-item .sobre-info p {
     margin-bottom: 14px;
     font-size: 1em;
   }
 }
 
 @media (max-width: 500px) {
-  .menu {
-    flex-direction: column;
-    padding: 6px 0px;
-  }
-
-  .menu-lista ul a {
-    font-size: 1.1em;
-    padding: 12px;
-  }
-
-  .menu-logo a {
-    font-size: 2.2em;
-    margin-left: 0px;
-  }
-
   .sobre-bg {
     background-image: url(img/fundo/ampulheta\ 400-2.jpg);
     background-size: cover;
@@ -252,33 +235,46 @@ img {
 
   .sobre {
     padding-top: 18px;
-    margin-left: 10px;
+    margin: 0px auto;
   }
 
-  .sobre span {
-    font-size: 0.8em;
-    width: 200px;
-    top: 2.5%;
-    left: 28%;
+  .sobre-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    margin: 0px auto;
+  }
+
+  .sobre-item span {
+    margin-bottom: 5px;
+    margin-left: 0px;
   }
 
   .sobre-info {
     flex: 1 1 240px;
-    margin: 0px auto 20px auto;
   }
 
-  .sobre h1 {
+  .sobre-item h1 {
     font-size: 1.6em;
-    padding: 20px 0px 0px 0px;
-    margin: 0px auto 20px auto;
     text-align: center;
   }
 
-  .sobre p {
-    margin: 0px auto 20px auto;
+  .sobre-item p {
     font-size: 1em;
+    width: auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .sobre-item span {
+    font-size: 0.6;
+  }
+
+  .sobre-item h1 {
+    font-size: 1.4em;
   }
 }
 

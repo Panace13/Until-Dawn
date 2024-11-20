@@ -299,7 +299,7 @@ img {
 
 @media (max-width: 800px) {
   .tema-1 {
-    background-image: url(../Projeto/img/fundo/medo\ 730.jpg);
+    background-image: url(./img/fundo/medo\ 730.jpg);
     height: 340px;
   }
 
@@ -310,7 +310,7 @@ img {
 
 @media (max-width: 500px) {
   .tema-1 {
-    background-image: url(../Projeto/img/fundo/medo\ 320.jpg);
+    background-image: url(./img/fundo/medo\ 320.jpg);
     background-position: center;
     height: 200px;
   }

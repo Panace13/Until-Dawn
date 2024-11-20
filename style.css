@@ -278,24 +278,52 @@ img {
   }
 }
 
-/*tema
-.tema-1{
+.tema-1 {
   background-image: url(./img/fundo/medo\ 1030.jpg);
   background-repeat: no-repeat;
-  height: 640px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.tema-1 span{
-  position: absolute;
-  top: 154%;
-  left: 38%;
-  font-size: 12em;
+.tema-1 span {
+  font-size: 10em;
   text-transform: uppercase;
   font-family: "Creepster", system-ui;
   text-align: center;
   color: #dedfe17a;
 }
-*/
+
+@media (max-width: 1100px) {
+  .tema-1 {
+    background-image: url(./img/fundo/medo\ 730.jpg);
+  }
+}
+
+@media (max-width: 800px) {
+  .tema-1 {
+    background-image: url(./img/fundo/medo\ 730.jpg);
+    height: 340px;
+  }
+
+  .tema-1 span {
+    font-size: 8em;
+  }
+}
+
+@media (max-width: 500px) {
+  .tema-1 {
+    background-image: url(./img/fundo/medo\ 730.jpg);
+    height: 200px;
+  }
+
+  .tema-1 span {
+    font-size: 4em;
+  }
+}
 
 /*jogo*/
 

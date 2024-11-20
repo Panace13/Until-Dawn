@@ -279,7 +279,7 @@ img {
 }
 
 .tema-1 {
-  background-image: url(../Projeto/img/fundo/medo\ 1030.jpg);
+  background-image: url(./img/fundo/medo\ 1030.jpg);
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;

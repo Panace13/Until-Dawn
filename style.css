@@ -278,8 +278,10 @@ img {
   }
 }
 
-.tema-1 {
-  background-image: url(../Projeto/img/fundo/medo\ 1030.jpg);
+/*tema-1*/
+
+.tema-sam {
+  background-image: url(./img/fundo/medo\ 1030.jpg);
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
@@ -289,7 +291,7 @@ img {
   align-items: center;
 }
 
-.tema-1 span {
+.tema-sam span {
   font-size: 10em;
   text-transform: uppercase;
   font-family: "Creepster", system-ui;
@@ -298,24 +300,24 @@ img {
 }
 
 @media (max-width: 800px) {
-  .tema-1 {
-    background-image: url(../Projeto/img/fundo/medo\ 730.jpg);
+  .tema-sam {
+    background-image: url(./img/fundo/medo\ 730.jpg);
     height: 340px;
   }
 
-  .tema-1 span {
+  .tema-sam span {
     font-size: 8em;
   }
 }
 
 @media (max-width: 500px) {
-  .tema-1 {
-    background-image: url(../Projeto/img/fundo/medo\ 320.jpg);
+  .tema-sam {
+    background-image: url(./img/fundo/medo\ 320.jpg);
     background-position: center;
     height: 200px;
   }
 
-  .tema-1 span {
+  .tema-sam span {
     font-size: 4em;
   }
 }

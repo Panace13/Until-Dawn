@@ -104,7 +104,7 @@ img {
 /*sobre*/
 
 .sobre-bg {
-  background-image: url(../Projeto/img/fundo/ampulheta\ 1400.jpg);
+  background-image: url(./img/fundo/ampulheta\ 1400.jpg);
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
@@ -168,7 +168,7 @@ img {
 
 @media (max-width: 1140px) {
   .sobre-bg {
-    background-image: url(../Projeto/img/fundo/ampulheta\ 700.jpg);
+    background-image: url(./img/fundo/ampulheta\ 700.jpg);
     margin: 0px;
     padding: 0px;
   }
@@ -220,12 +220,13 @@ img {
   .sobre-item .sobre-info p {
     margin-bottom: 14px;
     font-size: 1em;
+    width: 300px;
   }
 }
 
 @media (max-width: 500px) {
   .sobre-bg {
-    background-image: url(../Projeto/img/fundo/ampulheta\ 400-2.jpg);
+    background-image: url(./img/fundo/ampulheta\ 400-2.jpg);
     background-size: cover;
     margin: 0px;
     padding-top: 5px;
@@ -311,7 +312,7 @@ img {
   .tema-1 {
     background-image: url(../Projeto/img/fundo/medo\ 320.jpg);
     background-position: center;
-    height: 300px;
+    height: 200px;
   }
 
   .tema-1 span {

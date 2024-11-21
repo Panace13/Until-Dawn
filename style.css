@@ -6,7 +6,8 @@ ul,
 li,
 a,
 section,
-span {
+span,
+div {
   margin: 0px;
   padding: 0px;
 }
@@ -230,7 +231,7 @@ img {
     background-size: cover;
     margin: 0px;
     padding-top: 5px;
-    height: 800px;
+    height: 730px;
   }
 
   .sobre {
@@ -282,6 +283,7 @@ img {
 
 .tema-sam {
   background-image: url(./img/fundo/medo\ 1030.jpg);
+  background-color: #000000;
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
@@ -313,8 +315,10 @@ img {
 @media (max-width: 500px) {
   .tema-sam {
     background-image: url(./img/fundo/medo\ 320.jpg);
-    background-position: center;
-    height: 200px;
+    background-position-y: 58%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .tema-sam span {

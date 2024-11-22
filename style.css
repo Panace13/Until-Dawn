@@ -517,11 +517,13 @@ img {
   }
 
   .jogo h1 {
-    flex-basis: 340px;
+    flex-basis: 320px;
     font-size: 1.1em;
     background-color: #0070d1;
     text-align: left;
     padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
     margin-top: 20px;
   }
 

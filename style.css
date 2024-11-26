@@ -521,7 +521,7 @@ img {
   .jogo-info {
     flex: 1 0 220px;
     margin-bottom: 0px;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
 
   .jogo-info h2 {
@@ -754,7 +754,7 @@ img {
   }
 
   .personagens-item h2 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-top: 20px;
     text-align: center;
   }
@@ -776,7 +776,7 @@ img {
 
   .personagens-bg h1 {
     flex-basis: auto;
-    font-size: 1em;
+    font-size: 1.3em;
     padding-right: 0px;
     margin-right: 0px;
     margin-top: 20px;
@@ -785,7 +785,7 @@ img {
   .personagens-item {
     flex: 1 0 220px;
     margin-bottom: 0px;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
 
   .personagens-item p {
@@ -796,6 +796,9 @@ img {
 }
 
 @media (max-width: 360px) {
+  .personagens-bg h1{
+    font-size: 1.2em;
+  }
   .personagens-item h2 {
     font-size: 1.1em;
   }

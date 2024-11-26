@@ -516,6 +516,7 @@ img {
   .jogo h1 {
     flex-basis: 300px;
     font-size: 1.2em;
+    margin: 10px auto 5px auto;
   }
 
   .jogo-info {
@@ -796,7 +797,7 @@ img {
 }
 
 @media (max-width: 360px) {
-  .personagens-bg h1{
+  .personagens-bg h1 {
     font-size: 1.2em;
   }
   .personagens-item h2 {
